@@ -1,0 +1,24 @@
+#footerDiv {
+  text-align:center;
+  width:100%;
+  background:linear-gradient(to bottom right, #7387a0, whitesmoke);
+  position:fixed;
+  bottom:0;
+  z-index: 3;
+  border-top: 1px solid #333333;
+}
+
+#footerDiv img {
+  height: 50px;
+  display:inline-block;
+  margin: 5px 15px;
+  //margin-left:15px;
+  //margin-right:15px;
+  transition: 0.2s;
+}
+
+#footerDiv img:hover {
+  border-color: #9c4f21;
+  outline: 0;
+  box-shadow: 0 0 8px 4px rgba(156, 79, 33, 1);
+}

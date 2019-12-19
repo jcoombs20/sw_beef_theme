@@ -1,0 +1,16 @@
+name: SW Beef
+type: theme
+description: A theme design for Southwest Beef
+core: 8.x
+
+regions:
+  header: Header
+  navigation: Navigation
+  content: Content
+  footer: Footer
+  page_top: Page Top
+  page_bottom: Page Bottom
+
+libraries:
+  - 'swbeef/global-css'
+  - 'swbeef/global-js'

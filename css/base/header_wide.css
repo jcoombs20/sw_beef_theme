@@ -1,0 +1,127 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  //font-family: 'PT Sans', sans-serif;
+  //font-family: 'Roboto', sans-serif;
+}
+
+header {
+  text-align: center;
+  height: 6rem;
+  border-bottom: 1px solid #333333;
+  background-image: linear-gradient(to bottom right, #7387a0, whitesmoke);
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  width: 100%;
+  transition: 0.2s;
+}
+
+#jer_menu_div {
+  height: 100%;
+}
+
+div[id*="-branding"] {
+  display: inline-block;
+  height: 100%;
+}
+
+div[id*="-branding"] img {
+  height: 94px;
+  filter: drop-shadow(8px 5px 2px #666666);
+  transition: 0.2s;
+}
+
+.primA {
+  transition: 0.2s;
+}
+
+#mobileMenu {
+  display: none;
+  height: 100%;
+}
+
+#jer_menu_div nav {
+  display: inline-block;
+  height: 100%;
+}
+
+#jer_menu_div ul {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  list-style-type: none;
+}
+
+#jer_menu_div ul>li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 160px;
+  position: relative;
+}
+
+#jer_menu_div ul>li:hover {
+  background-image: linear-gradient(to bottom right, #9c4f21, whitesmoke);
+  cursor: pointer;
+}
+
+#jer_menu_div ul ul {
+  display: none;
+}
+
+#jer_menu_div a, #jer_menu_div span, div[id*="-branding"] a {
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333333;
+  height: 100%;
+  display: block;
+  line-height: 3.7em;
+}
+
+#jer_menu_div a:hover, #jer_menu_div span:hover, div[id*="-branding"] a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.jer_menu_div_0 {
+  display: none;
+  background-image: linear-gradient(to bottom right, #fae2b6, whitesmoke);
+  width: 100%;
+}
+
+.jer_menu_div_1 {
+  position: absolute;
+  width: max-content;
+  border-left: solid 1px #333333;
+  left: 100%;
+  background-image: linear-gradient(to bottom right, #fae2b6, whitesmoke);
+}
+
+.jer_submenu_0 {
+  padding: 0;
+  text-align: left;
+}
+
+#jer_menu_div .jer_submenu_0>li, #jer_menu_div .jer_submenu_1>li {
+  display: table-row-group;
+}
+
+#jer_menu_div .jer_submenu_0 a, #jer_menu_div .jer_submenu_0 span {
+  font-size: 1.1em;
+  line-height: 2em;
+  padding-left: 5px;
+  width: 160px;
+}
+
+#jer_menu_div span.liParent {
+  display: none;
+}
+
+#jer_menu_div .jer_submenu_1 a {
+  font-size: 1em;
+}

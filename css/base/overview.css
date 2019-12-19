@@ -1,0 +1,21 @@
+#overviewDiv {
+  padding: 1rem;
+  text-align: center;
+}
+
+#overviewDiv video {
+  border: 2px solid #333;
+  width: 90%;
+}
+
+#overviewDiv iframe {
+  width: 90%;
+  height: 90vh;
+}
+
+#overviewDiv #mission {
+  text-align: left;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+}

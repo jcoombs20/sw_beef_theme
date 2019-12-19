@@ -1,0 +1,62 @@
+#footerBrandDiv {
+  background-image: url("https://southwestbeef.org/images/carousel/criolloStill.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 126px;
+  //position: absolute;
+  //bottom: 0;
+  width: 100%;
+  border-top: 1px solid #333333;
+  text-align: right;
+  //filter: grayscale(75%);
+}
+
+#footerBrandDiv #footerBrandImgWide {
+  display: none;
+}
+
+#footerBrandDiv #footerBrandImgNarrow {
+  display: block;
+}
+
+#footerBrandDiv img {
+  height: 125px;
+  vertical-align: top;
+  float: left;
+  margin-left: 10px;
+  filter: drop-shadow(8px 5px 2px #666666);
+  z-index: 2;
+}
+
+#footerBrandDiv #sloganDiv {
+  background: rgba(255,255,255,0.5);
+  height: 100%;
+  //display: flex;
+  //justify-content: center;
+  //align-items: center;
+  //position: absolute;
+  width: 100%;
+  padding-right: 10px;
+}
+
+#footerBrandDiv #footerBrandURL {
+  font-family: 'billyforges';
+  font-size: 2.7em;
+  margin: 0;
+  padding-top: 5px;
+}
+
+#footerBrandDiv #footerBrandURL a {
+  color: #9c4f21;
+}
+
+#footerBrandDiv #footerBrandURL a:hover {
+  color: #9c4f21;
+  text-decoration: none;
+}
+
+#footerBrandDiv #logoDiv h5 {
+  font-size: 0.75rem;
+  margin: 0;
+}

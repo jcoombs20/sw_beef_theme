@@ -1,0 +1,28 @@
+#profileDiv .profileDiv {
+  width: 31%;
+  min-width: 450px;
+  height: 695px;
+  vertical-align: top;
+  text-align: center;
+  padding: 1rem;
+  background: linear-gradient(to bottom right, #fae2b6, whitesmoke);
+  margin: 1%;
+  border: 2px solid #333333;
+  border-radius: 8px;
+  display: inline-block;
+} 
+
+#profileDiv .profileDiv img {
+  width: 50%;
+  //height: 50%;
+  border-radius: 50%;
+  background-image: linear-gradient(to bottom right, #333333, #9c4f21);
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+#profileDiv .profileDiv p {
+  text-align: left;
+  font-size: 0.8rem;
+}
+  

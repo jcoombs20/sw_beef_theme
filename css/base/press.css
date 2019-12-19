@@ -1,0 +1,12 @@
+#pressDiv {
+  text-align: left;
+  padding: 25px;
+  text-align: center;
+}
+
+#pressDiv img {
+  max-width: 80%;
+  border: 1px solid #333333;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
